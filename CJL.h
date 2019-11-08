@@ -44,6 +44,22 @@ void Putin_LL(LL* list, LL** llp)
 	} while (turner);
 }
 
+
+void Find_LL(LL *list)
+{
+	int check,tricker=0;
+	scanf_s("%d",&check);
+	for(;tricker!=1;)
+	{
+		tricker = (check==list->num);
+		list->;
+	}
+	if (tricker)
+	{
+		printf("ÕÒµ½ÁË");
+	}
+}
+
 //void Putout_LL(LL* list)
 //{
 //	printf("%d", list->num);
